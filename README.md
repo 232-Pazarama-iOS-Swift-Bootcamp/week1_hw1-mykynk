@@ -1,5 +1,68 @@
 # week1_work1
-ilk ödev
+
+  
+
+# Süngerbob Pazaryeri
+## Projenin menüleri:
+### --- KAYDOL ---
+
+Adınız: Muhammed Yusuf
+Soyadınız: Kaynak
+Cinsiyetiniz: Erkek
+Yaşınız: 22
+Mesleğiniz: iOS Developer
+
+Süngerbob Pazaryeri'ne Hoşgeldiniz!
+Merhaba Muhammed Yusuf Kaynak,
+Cinsiyetiniz : Erkek | Yaşınız : 22 | Mesleğiniz : iOS Developer
+
+### -- Mağazalar --
+
+1 - Krusty Krab
+2 - Chum Bucket
+3 - Sandy
+4 - Süngerbob Karepantalon
+5 - Patrick
+6 - Squidward
+9 - Favori Ürünlerim
+
+0 - Çıkış
+
+### -- Kategoriler -- Seçilen mağazaya özel kategoriler gösterilir.
+
+1 - Giyim
+2 - Evcil Hayvan Bakımı
+3 - Kitaplar ve Hobiler
+4 - Mutfak Gereçleri
+
+0 - Ana Menü
+
+### -- Giyim --
+
+1 - Pantolon - 400 TL
+2 - Şort - 250 TL
+3 - İç Çamaşırı - 170 TL
+4 - Kravat - 200 TL
+5 - Çorap - 35 TL
+6 - Ayakkabı - 900 TL
+7 - Krusty Krab Şapka - 150 TL
+8 - Pijama Takımı - 210 TL
+9 - Gıcırdayan Çizmeler - 780 TL
+10 - Kategori Menüsü
+
+0 - Ana Menü
+
+  
+
+### -- Pantolon --
+
+1 - Ürünü Sepete Ekle
+2 - Ürün Yorumlarını Görüntüle
+3 - Ürüne Yorum Ekle
+4 - Ürünü Favoriye Ekle
+
+0 - Ana Menü
+
 
 # Pazarama iOS Bootcamp – Hafta 1 – Ödev  
 Bir konsept üzerine kurulu pazar yeri uygulaması yapacağız. Bu konsept bir film, anime, video
