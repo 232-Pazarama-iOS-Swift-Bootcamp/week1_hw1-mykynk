@@ -31,8 +31,8 @@ let personJob = readLine() ?? ""
 let person = Person(name: personName, surName: personSurname, gender: personGender, age: personAge, job: personJob)
 
 print()
-print("Süngerbob Pazaryerine hoşgeldiniz")
-print("Merhaba \(person.name) \(person.surName) ")
+print("Süngerbob Pazaryeri'ne Hoşgeldiniz")
+print("Merhaba \(person.name) \(person.surName), ")
 print("Cinsiyetiniz : \(person.gender) | Yaşınız : \(person.age) | Mesleğiniz : \(person.job) ")
 print()
 
@@ -95,11 +95,12 @@ outerLoop: while true {
     }
     
     //MARK: - Seçilen kategori
-    let categoryName = categoryList[(selectedCategoryIndex ?? 1 ) - 1 ].name
-    print("-- " + categoryName + " -- " )
+  
     
     while true {
         //MARK: - Ürün listesi
+        let categoryName = categoryList[(selectedCategoryIndex ?? 1 ) - 1 ].name
+        print("-- " + categoryName + " -- " )
         let productList = categoryList[(selectedCategoryIndex ?? 1 ) - 1 ].productList
         var k = 0
         for product in productList{
@@ -108,20 +109,25 @@ outerLoop: while true {
         }
         print()
         print("\(k+1) - Kategori Menüsü")
+        print("0 - Ana Menü")
         print()
         print("Lütfen seçmek istediğiniz ürünün numarasını giriniz: ")
         let selectedProductIndex = Int(readLine() ?? "1")
         print()
         if selectedProductIndex == (k+1) {
             break
+        }else if(selectedProductIndex == 0){
+            break outerLoop
         }
         print()
-        
+        let selectedProduct = productList[(selectedProductIndex ?? 1 ) - 1]
+
         //MARK: - Ürün detay listesi
+        print("-- \(selectedProduct.name) --")
         print("1 - Ürünü Sepete Ekle")
-        print("2 - Ürün yorumlarını görüntüle")
-        print("3 - Ürüne yorum ekle")
-        print("4 - Ürünü favoriye ekle")
+        print("2 - Ürün Yorumlarını Görüntüle")
+        print("3 - Ürüne Yorum Ekle")
+        print("4 - Ürünü Favoriye Ekle")
         print()
         print("0 - Ana Menü")
         
